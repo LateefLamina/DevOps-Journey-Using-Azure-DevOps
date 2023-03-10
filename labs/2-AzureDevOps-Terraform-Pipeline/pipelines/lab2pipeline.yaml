@@ -19,7 +19,7 @@ variables:
   - name: environment
     value: 'production'
   - name: terraform_version
-    value: '3.0.0'
+    value: '1.0.0'
 
 stages :
   - stage: validate
