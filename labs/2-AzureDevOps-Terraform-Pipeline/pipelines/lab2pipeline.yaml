@@ -11,7 +11,7 @@ variables:
   - name: backendAzureRmResourceGroupName
     value: 'devops-journey-rg'
   - name: backendAzureRmStorageAccountName
-    value: 'devopsjourneyazuredevops'
+    value: 'devopsjourneysaprojdemo'
   - name: backendAzureRmContainerName
     value: 'tfstate'
   - name: backendAzureRmKey
@@ -19,7 +19,7 @@ variables:
   - name: environment
     value: 'production'
   - name: terraform_version
-    value: '1.2.6'
+    value: '3.0.0'
 
 stages :
   - stage: validate
