@@ -12,6 +12,7 @@ variable "ssh_public_key" {
 }
 
 variable "kubernetes_version" {
+  default = "1.25.5"
 }
 
 variable "agent_count" {
