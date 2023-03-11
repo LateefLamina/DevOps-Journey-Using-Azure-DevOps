@@ -29,7 +29,7 @@ resource "azurerm_kubernetes_cluster" "k8s" {
     vm_size              = var.vm_size
     vnet_subnet_id       = var.aks_subnet
     type                 = "VirtualMachineScaleSets"
-    orchestrator_version = var.kubernetes_version
+    orchestrator_version = "1.25.5"
   }
 
   identity {
