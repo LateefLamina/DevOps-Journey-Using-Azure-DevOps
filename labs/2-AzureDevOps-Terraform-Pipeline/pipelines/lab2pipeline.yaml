@@ -13,7 +13,7 @@ variables:
   - name: backendAzureRmStorageAccountName
     value: 'devopsjourneysaprojdemo'
   - name: backendAzureRmContainerName
-    value: 'tfstate'
+    value: 'devopsjourneyblob'
   - name: backendAzureRmKey
     value: 'terraform.tfstate'
   - name: environment
