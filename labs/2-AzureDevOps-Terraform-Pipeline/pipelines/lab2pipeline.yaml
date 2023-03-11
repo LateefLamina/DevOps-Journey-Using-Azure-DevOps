@@ -7,7 +7,7 @@ pr: none
 
 variables:
   - name: backendServiceArm
-    value: 'azure-devops-journey-service-connection'
+    value: 'firstproj'
   - name: backendAzureRmResourceGroupName
     value: 'devops-journey-rg'
   - name: backendAzureRmStorageAccountName
