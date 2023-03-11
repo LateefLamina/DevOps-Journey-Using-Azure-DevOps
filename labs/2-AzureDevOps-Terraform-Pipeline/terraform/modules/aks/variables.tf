@@ -4,7 +4,7 @@ variable "name" {
 }
 
 variable "location" {
-  default = "uksouth"
+  default = "EastUS"
 }
 
 variable "ssh_public_key" {
