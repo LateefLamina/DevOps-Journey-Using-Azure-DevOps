@@ -74,7 +74,7 @@ stages :
           inputs:
             provider: 'azurerm'
             command: 'plan'
-            commandOptions: '-input=false -var-file="../vars/${{ variables.environment }}.tfvars"'
+            commandOptions: '-input=false -lock=false -var-file="../vars/${{ variables.environment }}.tfvars"'
             environmentServiceNameAzureRM: ${{ variables.backendServiceArm }}
             workingDirectory: '$(System.DefaultWorkingDirectory)/labs/2-AzureDevOps-Terraform-Pipeline/terraform/'
 
