@@ -112,6 +112,6 @@ stages :
           inputs:
             provider: 'azurerm'
             command: 'apply'
-            commandOptions: '-input=false -auto-approve -var-file="../vars/${{ variables.environment }}.tfvars"'
+            commandOptions: '-input=false -lock=false -auto-approve -var-file="../vars/${{ variables.environment }}.tfvars"'
             environmentServiceNameAzureRM: ${{ variables.backendServiceArm }}
             workingDirectory: '$(System.DefaultWorkingDirectory)/labs/2-AzureDevOps-Terraform-Pipeline/terraform/'
